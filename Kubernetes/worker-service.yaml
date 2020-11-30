@@ -1,0 +1,35 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.21.0 (992df58d8)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: worker
+  name: worker
+spec:
+  type: NodePort
+  ports:
+  - name: "8082"
+    port: 8082
+    targetPort: 8082
+  - name: "7012"
+    port: 7012
+    targetPort: 7012
+  - name: "7013"
+    port: 7013
+    targetPort: 7013
+  - name: "7014"
+    port: 7014
+    targetPort: 7014
+  - name: "7015"
+    port: 7015
+    targetPort: 7015
+  - name: "8881"
+    port: 8881
+    targetPort: 8881
+  selector:
+    io.kompose.service: worker
+status:
+  loadBalancer: {}

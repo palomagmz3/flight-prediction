@@ -1,0 +1,51 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.21.0 (992df58d8)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: worker
+  name: worker
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: worker
+  strategy: {}
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert
+        kompose.version: 1.21.0 (992df58d8)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: worker
+    spec:
+      containers:
+      - args:
+        - bin/spark-class
+        - org.apache.spark.deploy.worker.Worker
+        - spark://master:7077
+        env:
+        - name: SPARK_MASTER_URL
+          value: spark://master:7077
+        - name: SPARK_MODE
+          value: worker
+        image: bitnami/spark:2.4.4
+        imagePullPolicy: IfNotPresent
+        name: worker
+        ports:
+        - containerPort: 8082
+        - containerPort: 7012
+        - containerPort: 7013
+        - containerPort: 7014
+        - containerPort: 7015
+        - containerPort: 8881
+        resources: {}
+      hostname: worker
+      restartPolicy: Always
+      serviceAccountName: ""
+      volumes: null
+status: {}

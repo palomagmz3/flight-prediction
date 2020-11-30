@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /practica/practica_big_data_2019/flight_prediction/target/scala-2.11/flight_prediction_2.11-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /practica/practica_big_data_2019/flight_prediction/target/scala-2.11/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	es[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /practica/practica_big_data_2019/flight_prediction/target/scala-2.11/classes/es[0m
+[0m[[0m[0mdebug[0m] [0m[0m	es/upm[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /practica/practica_big_data_2019/flight_prediction/target/scala-2.11/classes/es/upm[0m
+[0m[[0m[0mdebug[0m] [0m[0m	es/upm/dit[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /practica/practica_big_data_2019/flight_prediction/target/scala-2.11/classes/es/upm/dit[0m
+[0m[[0m[0mdebug[0m] [0m[0m	es/upm/dit/ging[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /practica/practica_big_data_2019/flight_prediction/target/scala-2.11/classes/es/upm/dit/ging[0m
+[0m[[0m[0mdebug[0m] [0m[0m	es/upm/dit/ging/predictor[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /practica/practica_big_data_2019/flight_prediction/target/scala-2.11/classes/es/upm/dit/ging/predictor[0m
+[0m[[0m[0mdebug[0m] [0m[0m	es/upm/dit/ging/predictor/MakePrediction$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /practica/practica_big_data_2019/flight_prediction/target/scala-2.11/classes/es/upm/dit/ging/predictor/MakePrediction$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	es/upm/dit/ging/predictor/MakePrediction$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /practica/practica_big_data_2019/flight_prediction/target/scala-2.11/classes/es/upm/dit/ging/predictor/MakePrediction$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	es/upm/dit/ging/predictor/MakePrediction$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /practica/practica_big_data_2019/flight_prediction/target/scala-2.11/classes/es/upm/dit/ging/predictor/MakePrediction$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	es/upm/dit/ging/predictor/MakePrediction.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /practica/practica_big_data_2019/flight_prediction/target/scala-2.11/classes/es/upm/dit/ging/predictor/MakePrediction.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	es/upm/dit/ging/predictor/MakePrediction$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /practica/practica_big_data_2019/flight_prediction/target/scala-2.11/classes/es/upm/dit/ging/predictor/MakePrediction$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	es/upm/dit/ging/predictor/MakePrediction$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /practica/practica_big_data_2019/flight_prediction/target/scala-2.11/classes/es/upm/dit/ging/predictor/MakePrediction$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
