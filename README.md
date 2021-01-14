@@ -5,8 +5,8 @@ Pasos previos al despliegue de la práctica de predicción de vuelos:
 
 Escoger una de las dos siguientes opciones:
 
-  a.1) Descargar y extraer en una carpeta local el zip subido a moodle en el que están todos los archivos necesarios. <br>
-  a.1) Clonar el repositorio en una carpeta local a través del siguiente comando: 
+  a. Descargar y extraer en una carpeta local el zip subido a moodle en el que están todos los archivos necesarios. <br>
+  b. Clonar el repositorio en una carpeta local a través del siguiente comando: 
 	
 ```
 git clone https://github.com/palomagmz3/flight-prediction.git
